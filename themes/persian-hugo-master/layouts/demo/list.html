@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<section class="section pt-0">
+  <div class="container-fluid">
+    <div>Short Description of {{.Site.Data.Certifications.Name}}: <p>{{ index .Site.Data.Certifications "Short Description" | markdownify }}</p></div>
+    <h1 style="background-color: gray;">{{ .Site.Data.certification.Name }}</h1>
+    <ol>
+         {{ range .Site.Data.Certifications.Achievements }}
+         <li>{{ . }}</li>
+         {{ end }}
+       </ol> 
+</section>
+
+{{ end }}
