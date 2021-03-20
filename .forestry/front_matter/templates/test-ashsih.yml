@@ -1,4 +1,14 @@
 ---
 label: test-ashsih
 hide_body: true
-fields: []
+fields:
+- name: hello
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: hello
+  description: this is for testing
