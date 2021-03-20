@@ -1,7 +1,6 @@
 ---
-title: "Demo"
-# meta description
-description: "this is meta description"
-# save as draft
-draft: false
+title: Demo
+description: this is meta description
+
 ---
+testi i s for sting 
